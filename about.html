@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品简介 · 关于本站 | 红色记忆</title>
+  <meta name="description" content="本作品为甘肃农业大学第五届红色网页设计大赛参赛作品，本站汇总作品简介、设计说明与原创声明。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="nav__brand" href="index.html">
+        <img src="images/logo.svg" alt="站点徽标">
+        <span><b>红色记忆</b><span>党史征程 · 1921—至今</span></span>
+      </a>
+      <button class="nav__toggle" aria-label="菜单">☰</button>
+      <ul class="nav__links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="history.html">党史历程</a></li>
+        <li><a href="heroes.html">红色人物</a></li>
+        <li><a href="spirit.html">红色精神</a></li>
+        <li><a href="about.html" class="active">关于本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content" data-page="about">
+
+    <section class="hero">
+      <img class="hero__bg" src="images/hero-bg.svg" alt="">
+      <div class="wrap hero__inner">
+        <span class="hero__seal">★ 关于本站</span>
+        <h1>作品简介 · <span class="accent">关于本站</span></h1>
+        <p class="lead">这里汇总本参赛作品的选题定位、内容结构、设计说明与原创声明。本页内容亦可直接作为提交材料中的"作品简介"。</p>
+      </div>
+    </section>
+
+    <!-- 作品简介 -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__kicker">INTRODUCTION</span>
+          <h2 class="section__title">作品<em>简介</em></h2>
+        </div>
+        <div class="cards">
+          <div class="card reveal">
+            <div class="card__top"><img src="images/icon-history.svg" alt=""></div>
+            <div class="card__body">
+              <h3>选题定位</h3>
+              <p>以"党史与革命历史"为主线，系统回望从中共一大到新时代的光辉历程，主题鲜明、符合主流价值观与大赛主旨。</p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="card__top"><img src="images/icon-hero.svg" alt=""></div>
+            <div class="card__body">
+              <h3>内容结构</h3>
+              <p>由首页、党史历程、红色人物、红色精神、关于本站五个页面组成，层次清晰、文件分类存放，目录深度不超过三层。</p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="card__top"><img src="images/icon-spirit.svg" alt=""></div>
+            <div class="card__body">
+              <h3>技术实现</h3>
+              <p>纯静态网页（HTML / CSS / 原生 JavaScript），无外部框架依赖，本地链接全部采用相对路径，兼容主流浏览器。</p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="card__top"><img src="images/star.svg" alt=""></div>
+            <div class="card__body">
+              <h3>交互特色</h3>
+              <p>时间轴点击展开、人物卡片翻转、滚动入场动画、Hero 视差与标语轮播，并配有原创背景音乐，交互性强、体验流畅。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 设计说明 -->
+    <section class="section section--tint">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__kicker">DESIGN</span>
+          <h2 class="section__title">设计<em>说明</em></h2>
+        </div>
+        <div class="notice reveal">
+          <h3>一、设计理念</h3>
+          <p>以经典"中国红 + 描金"的庄重视觉语言，营造严肃而不失温度的红色氛围；版式以衬线标题搭配无衬线正文，强调可读性与秩序感，突出"历史感"与"纪念性"。</p>
+          <h3 style="margin-top:18px">二、色彩与字体</h3>
+          <ul>
+            <li>主色：中国红（#C8102E）与深红（#7A0C16），辅以描金（#C9A24B / #E8C977）；</li>
+            <li>字体：标题使用思源宋体 / 宋体类衬线字族，正文使用思源黑体 / 微软雅黑类无衬线字族；</li>
+            <li>图形：Logo、Hero 剪影、板块图标与分隔纹样均使用矢量 SVG，离线可用、清晰锐利。</li>
+          </ul>
+          <h3 style="margin-top:18px">三、工程约束</h3>
+          <ul>
+            <li>图片、音频等资源分别存放于 images/ 与 music/ 目录；</li>
+            <li>所有本地链接使用相对路径，目录层级不超过三层；</li>
+            <li>仅使用原生技术栈，未引入任何第三方库，确保评审环境（Edge 90+）正常打开。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 创作手记 / 学习感悟 -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__kicker">NOTES</span>
+          <h2 class="section__title">创作<em>手记</em></h2>
+          <p class="section__sub">做这个网站，也是一次重新走近历史的过程。</p>
+        </div>
+        <div class="notes">
+          <div class="note reveal">
+            <h3><span class="n">1</span>为什么选党史</h3>
+            <p>题材权威、素材可考，是最不易踩内容红线的方向；对青年而言，回望来路也比空谈口号更有重量。</p>
+          </div>
+          <div class="note reveal">
+            <h3><span class="n">2</span>页面怎么搭</h3>
+            <p>以"时间—人物—精神"三条线索串起全站，力求层次清晰、互有呼应，而不是零散堆砌。</p>
+          </div>
+          <div class="note reveal">
+            <h3><span class="n">3</span>一点小坚持</h3>
+            <p>所有人物与事件文案只写公开权威史实，不虚构引语；背景音乐为原创曲目，无第三方版权争议。</p>
+          </div>
+          <div class="note reveal">
+            <h3><span class="n">4</span>还想补的</h3>
+            <p>如果时间允许，希望加入更多地方红色资源与互动问答，让"展示"不止于看，更能让人参与进来。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 原创声明 -->
+    <section class="section section--tint">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__kicker">STATEMENT</span>
+          <h2 class="section__title">原创<em>声明</em></h2>
+        </div>
+        <div class="notice reveal">
+          <p>本作品为甘肃农业大学第五届红色网页设计大赛参赛作品，现作出如下声明：</p>
+          <ul>
+            <li>网站全部页面结构、样式与交互脚本均由作者独立设计与编写，未抄袭、套用他人作品；</li>
+            <li>文字内容依据公开权威史料整理，未虚构领导人讲话或杜撰引文；</li>
+            <li>站点 Logo、剪影、图标及分隔纹样等为原创矢量图形；背景音乐为原创曲目，无第三方版权争议；</li>
+            <li>本作品仅用于本次比赛展示，未经授权不得用于商业用途；</li>
+            <li>如涉及内容表述偏差，以官方权威口径为准，作者愿承担相应责任。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="section">
+      <div class="wrap" style="max-width:780px;text-align:center">
+        <div class="reveal">
+          <span class="section__kicker">CONTACT</span>
+          <h2 class="section__title">联系<em>方式</em></h2>
+          <p class="section__sub" style="margin-top:14px">
+            如对作品有疑问或需补充说明，可通过邮件联系作者：<br>
+            <a class="btn btn--red" style="margin-top:18px" href="mailto:your-email@example.com?subject=关于《红色记忆·党史征程》参赛作品">发送邮件咨询 →</a>
+          </p>
+          <p style="margin-top:18px;font-size:13px;color:var(--ink-soft)">（请将邮箱替换为作者本人接收邮箱；参赛作品提交请按大赛官方渠道发送）</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 本站导航 -->
+    <section class="section section--tint">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__kicker">SITE MAP</span>
+          <h2 class="section__title">前往<em>各栏目</em></h2>
+        </div>
+        <div class="cards">
+          <a class="card reveal" href="index.html">
+            <div class="card__top"><img src="images/logo.svg" alt="首页"></div>
+            <div class="card__body"><h3>首页</h3><p>序章导览与三大板块入口。</p><span class="card__more">进入 →</span></div>
+          </a>
+          <a class="card reveal" href="history.html">
+            <div class="card__top"><img src="images/icon-history.svg" alt="历程"></div>
+            <div class="card__body"><h3>党史历程</h3><p>1921—2012 关键节点时间轴。</p><span class="card__more">进入 →</span></div>
+          </a>
+          <a class="card reveal" href="heroes.html">
+            <div class="card__top"><img src="images/icon-hero.svg" alt="人物"></div>
+            <div class="card__body"><h3>红色人物</h3><p>先驱与英烈的信仰坐标。</p><span class="card__more">进入 →</span></div>
+          </a>
+          <a class="card reveal" href="spirit.html">
+            <div class="card__top"><img src="images/icon-spirit.svg" alt="精神"></div>
+            <div class="card__body"><h3>红色精神</h3><p>党的精神谱系梳理。</p><span class="card__more">进入 →</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__top">
+      <div>
+        <div class="footer__brand">
+          <img src="images/logo.svg" alt="徽标">
+          <b>红色记忆 · 党史征程</b>
+        </div>
+        <p style="margin-top:14px;max-width:320px;font-size:14px;color:#d9b89c">
+          本作品为甘肃农业大学第五届红色网页设计大赛参赛作品，内容基于公开史料整理，严禁抄袭与商用。
+        </p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>站点导航</h4>
+          <a href="history.html">党史历程</a>
+          <a href="heroes.html">红色人物</a>
+          <a href="spirit.html">红色精神</a>
+          <a href="about.html">关于本站</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      © 2026 红色记忆 · 党史征程 — 第五届红色网页设计大赛参赛作品 · 原创
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
